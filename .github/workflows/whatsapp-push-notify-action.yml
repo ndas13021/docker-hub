@@ -3,7 +3,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: ishween/whatsapp-push-notify-action@1.2
       - name: whatsapp-notify
         id: whatsapp-notify
         env:
